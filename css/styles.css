@@ -6,7 +6,7 @@
 /* Styles for the body */
 
 body {
-	font-family: 'American Typewriter',"Open Sans", 'Roboto', "Segoe UI", "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Anton',"Open Sans", 'Roboto', "Segoe UI", "Helvetica Neue", 'Helvetica', 'Arial', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -15,7 +15,7 @@ body {
 
 .resume-header {
     background-color: #458C5E;
-	font-family: 'American Typewriter';
+	font-family: 'Anton';
 	color: #F2E6CE; 	
 	
 }

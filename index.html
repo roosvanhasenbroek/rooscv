@@ -2,7 +2,9 @@
 <html class="h-100" lang="en">
   
   <!-- An HTML document always starts with a "head", i.e. information about the page that isn't directly visible -->
-  <head>
+  <head> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,7 +21,7 @@
     <link rel="stylesheet" href="css/alternative.css">
      -->
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Roos van Hasenbroek's Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -48,14 +50,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/fotoroos.png" alt="Portrait of Firstname Lastname" width="826">
+          <img class="w-100 rounded-circle my-3" src="images/fotoroos.png" alt="portrait roos van hasenbroek" width="826">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="display-4 fw-bolder">Roos van Hasenbroek</h1>
-          <h5 class="fst-italic tagline">Creative Business student at Breda University of Applied Sciences</h5>
+          <h1 class="display-3 fw-bolder text-middle">Roos van Hasenbroek</h1>
+          <h5 class="fst-italic tagline text-middle">Creative Business student at Breda University of Applied Sciences</h5>
         </div>
       </header>
 
@@ -75,7 +77,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="display-8"> Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -86,7 +88,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/doklogo.png" alt="Company logo" width="312">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/doklogo.png" alt="doklogo" width="312">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Catering, DOK Delft</h4>
@@ -104,7 +106,7 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/rswklogo.png" alt="Company logo" width="358">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/rswklogo.png" alt="rswklogo" width="358">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Intern at Rijswijkse Schouwburg</h4>
@@ -119,13 +121,13 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="display-8">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="buaslogo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Breda University of Applied Sciences</h4>
@@ -142,7 +144,7 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/glrlogo.jpg" alt="School logo" width="294">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/glrlogo.jpg" alt="glrlogo" width="294">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Graphic Lyceum Rotterdam - MBO</h4>
@@ -168,7 +170,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="display-8">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -204,7 +206,7 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2 class="display-8">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
@@ -243,12 +245,19 @@
           </section>
 
           <!-- End of contact details, moving on to other skills -->
-
+        <section class="my-3 aside-section">
+            <h2 class="display-8">Adobe&nbsp;</h2>
+            <ul class="skill-list list-unstyled">
+              <li class="skill-item">InDesign</li>
+              <li class="skill-item">Illustrator</li>
+              <li class="skill-item">Premiere&nbsp;</li>
+            </ul>
+          </section>
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="display-8">Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Team player</li>
-              <li class="skill-item">Adobe Creative Package user&nbsp;</li>
+              <li class="skill-item">Flexibel</li>
               <li class="skill-item">Social&nbsp;</li>
             </ul>
           </section>
@@ -256,11 +265,11 @@
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
+            <h2 class="display-8">Interests</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Fashion</li>
-              <li class="skill-item">Walking  the dog</li>
-              <li class="skill-item">Meeting up with friends&nbsp;</li>
+              <li class="skill-item">Designing</li>
+              <li class="skill-item">Travelling</li>
             </ul>
           </section>
 
