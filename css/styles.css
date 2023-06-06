@@ -13,6 +13,11 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.roosheadline {
+	color:darkgreen
+	
+}
+
 .resume-header {
     background-color: #458C5E;
 	font-family: 'Anton';
